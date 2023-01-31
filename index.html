@@ -1,0 +1,27 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>SCC ツクリテ2022 - 職人辞典</title>
+</head><body>
+<h1>SCC ツクリテ2022 - 職人辞典</h1>
+<script type="module" src="https://code4sabae.github.io/js/csv-viewer.js"></script>
+<div id="container">
+<csv-viewer src=creators.csv></csv-viewer>
+</div>
+<hr>
+<a href=https://github.com/code4fukui/scc_creators_opendata/>data atd src on GitHub</a>
+
+<style>
+table {
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid black;
+  min-width: 5em;
+  padding: .2em .3em;
+}
+csv-viewer > div {
+  width: 100%;
+  overflow-x: scroll;
+}
+</style>
+</body>
+</html>
